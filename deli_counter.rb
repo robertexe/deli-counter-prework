@@ -26,4 +26,5 @@ def now_serving(arr)
   else
     puts "Currently serving #{arr[arr.length-1]}."
     arr.pop()
+  end
 end
