@@ -24,7 +24,7 @@ def now_serving(arr)
   if arr.length === 0
     puts "There is nobody waiting to be served!"
   else
-    puts "Currently serving #{arr[arr.length-1]}."
+    puts "Currently serving #{arr[arr.length]}."
     arr.pop()
   end
 end
