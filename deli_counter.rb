@@ -17,9 +17,9 @@ end
 
 def take_a_number(arr, name)
   arr << name
-  puts "#{name}. You are number #{arr.length-1} in line"
+  puts "#{name}. You are number #{arr.length} in line"
 end
 
 def now_serving(arr)
-  puts "Currently serving #{arr[0]}."
+  puts "Currently serving #{arr[0+1]}."
 end
